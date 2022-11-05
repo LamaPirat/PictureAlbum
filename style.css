@@ -1,0 +1,50 @@
+html,
+body {
+  margin: 0;
+  height: 100%;
+  width: auto;
+  font-family: sans-serif;
+  background-color: #dde2ed;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.imageContain {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #224861;
+  border-radius: 8px;
+  width: 1200px;
+  height: 80%;
+  overflow: hidden;
+}
+
+.imagesBox {
+  display: flex;
+  height: 60%;
+  width: 80%;
+
+  overflow: hidden;
+}
+
+.imgShift {
+  display: flex;
+  transition-property: margin-left;
+  transition-duration: 1s;
+  transition-timing-function: ease-out;
+  height: auto;
+  width: 100%;
+}
+
+.background {
+  height: auto;
+  max-width: 100%;
+
+  padding: 0;
+}
